@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/about"
+        android:alphabeticShortcut="A"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/info">
+    </item>
+    <item
+        android:id="@+id/preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings">
+    </item>
+    <item
+        android:id="@+id/renewal"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/topup">
+    </item>
+    <item
+        android:id="@+id/forceupdate"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="@string/force_refresh">
+    </item>
+
+</menu>

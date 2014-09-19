@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/reponse_hiding_options"
+        android:entryValues="@array/response_hiding_options_values"
+        android:key="@string/response_hiding"
+        android:negativeButtonText="Επιστροφή"
+        android:positiveButtonText="ΟΚ"
+        android:summary="@string/pref_hiding_summary"
+        android:title="@string/pref_hiding_title" >
+    </ListPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/notification"
+        android:summary="Ειδοποίηση όταν ολοκληρώνεται η ενημέρωση"
+        android:title="Ειδοποίηση ολοκλήρωσης" >
+    </CheckBoxPreference>
+
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="enabled_plugins"
+        android:summary="Επιλέξτε για ποια υπόλοιπα να γίνεται ενημέρωση"
+        android:title="Ενεργά υπόλοιπα" >
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/force_smsc"
+        android:summary="Παράκαμψη του Κέντρου SMS που ορίζεται στη SIM"
+        android:title="Παράκαμψη SMSC" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/on_call_end"
+        android:summary="Αυτόματη ανανέωση μετά το τέλος μιας κλήσης"
+        android:title="Μετά από κλήση" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/report_wifi_only"
+        android:summary="Αποστολή αναφοράς SMS μόνο μέσω Wifi"
+        android:title="Αναφορά WiFi" >
+    </CheckBoxPreference>
+
+</PreferenceScreen>

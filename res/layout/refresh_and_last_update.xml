@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/extra_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000"
+        android:shadowRadius="4"
+        android:text="@string/placeholder_extra_sms_body"
+        android:textColor="#eeeeee"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/Button_RefreshNow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/testbut"
+        android:clickable="true"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:shadowColor="#000"
+            android:shadowRadius="4"
+            android:text="@string/refresh_now"
+            android:textColor="#dddddd"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView_balance_lastupdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000"
+        android:shadowRadius="4"
+        android:text="@string/placeholder_last_updated_at"
+        android:textColor="#bbbbbb"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000"
+        android:shadowRadius="4"
+        android:text="@string/long_click_to_refresh"
+        android:textColor="#bbbbbb"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</merge>
